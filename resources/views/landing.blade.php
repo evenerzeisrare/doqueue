@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>DoQueue | Know what to do next.</title>@vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
+<body class="landing-page"><header class="landing-nav container"><a class="brand" href="{{ route('landing') }}"><span class="brand-mark">D</span><span>DoQueue</span></a><a class="text-link" href="{{ route('login') }}">Log in</a></header><main class="landing-main container"><div class="landing-copy"><p class="eyebrow">A calmer way to study</p><h1>DoQueue</h1><p class="landing-tagline">Know what to do next.</p><p class="landing-description">Keep assignments, deadlines, subjects, and progress together in one simple student workspace.</p><a class="button button-primary landing-cta" href="{{ route('login') }}">Get Started <span aria-hidden="true">→</span></a></div><div class="landing-preview" aria-label="DoQueue task preview"><div class="preview-top"><span>Today</span><span class="preview-dot"></span></div><div class="preview-task"><span class="preview-check">✓</span><div><strong>Finish biology notes</strong><small>Due today · High priority</small></div></div><div class="preview-task"><span class="preview-check empty"></span><div><strong>Plan history essay</strong><small>Due tomorrow · To Do</small></div></div><div class="preview-task"><span class="preview-check empty"></span><div><strong>Review project brief</strong><small>Due Friday · In Progress</small></div></div></div></main></body>
+</html>
